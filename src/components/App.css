@@ -1,0 +1,30 @@
+.myContainer {
+  margin-top: 100px;
+  padding-left: 30px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: row;
+}
+
+.myWrapper {
+  width: 100%;
+  display: flex;
+
+  justify-content: space-around;
+  align-items: space-between;
+  flex-direction: column;
+}
+
+@media only screen and (max-width: 900px) {
+  .myContainer {
+    flex-direction: column;
+    width: 100%;
+  }
+  .myWrapper {
+    width: 80%;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+  }
+}

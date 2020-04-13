@@ -1,0 +1,4 @@
+.button-horizontal {
+  display: flex;
+  flex-direction: row;
+}
